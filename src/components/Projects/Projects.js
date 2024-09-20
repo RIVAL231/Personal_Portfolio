@@ -36,7 +36,7 @@ function Projects() {
               title="Personal Portfolio"
               description="A personal portfolio website built with ReactJS. The website showcases my skills, projects, and blogs. It also provides a brief introduction about me and my journey as a developer. The website is designed to be responsive and user-friendly, ensuring a seamless experience for visitors. It is a reflection of my work and passion for web development."
               ghLink="https://github.com/RIVAL231/Personal_Portfolio"
-              demoLink=""
+              demoLink="https://personal-portfolio-sankalp-sharmas-projects.vercel.app/"
             />
           </Col>
         </Row>
