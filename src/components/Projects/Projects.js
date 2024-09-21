@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import project1 from "../../Assets/Projects/project1.png";
 import project2 from "../../Assets/Projects/project2.png";
-
+import project3 from "../../Assets/Projects/project3.png";
 
 function Projects() {
   return (
@@ -37,6 +37,16 @@ function Projects() {
               description="A personal portfolio website built with ReactJS. The website showcases my skills, projects, and blogs. It also provides a brief introduction about me and my journey as a developer. The website is designed to be responsive and user-friendly, ensuring a seamless experience for visitors. It is a reflection of my work and passion for web development."
               ghLink="https://github.com/RIVAL231/Personal_Portfolio"
               demoLink="https://personal-portfolio-sankalp-sharmas-projects.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={project3}
+              isBlog={false}
+              title="Hackoff 4.0"
+              description="A landing page for Hackoff 4.0 built with NextJS. The website provides information about the event, its schedule, and the speakers. It also allows users to register for the event and stay updated with the latest news and announcements. The website is designed to be interactive and engaging, ensuring a memorable experience for participants and attendees."
+              ghLink=""
+              demoLink="https://hackoff.ietvit.co"
             />
           </Col>
         </Row>

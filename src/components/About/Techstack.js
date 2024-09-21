@@ -9,9 +9,11 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  
 } from "react-icons/di";
 import {
   SiNextdotjs,
+  SiTailwindcss
 } from "react-icons/si";
 
 function Techstack() {
@@ -43,6 +45,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
     </Row>
   );
