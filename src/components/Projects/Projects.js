@@ -49,6 +49,16 @@ function Projects() {
               demoLink="https://hackoff.ietvit.co"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={project4}
+              isBlog={false}
+              title="DigiSwasth"
+              description="**DigiSwasth** is a web platform designed to enhance healthcare accessibility and efficiency. Built using Next.js and deployed on Vercel, it integrates modern web technologies to offer seamless user interactions. The platform may focus on providing digital health solutions, improving patient management, or offering healthcare services online."
+              ghLink="https://github.com/RIVAL231/hackbattle_healthfix"
+              demoLink="https://digiswasth-xi.vercel.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
