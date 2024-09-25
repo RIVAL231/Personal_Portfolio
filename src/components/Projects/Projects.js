@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import project1 from "../../Assets/Projects/project1.png";
 import project2 from "../../Assets/Projects/project2.png";
 import project3 from "../../Assets/Projects/project3.png";
+import project4 from "../../Assets/Projects/project4.png";
 
 function Projects() {
   return (
