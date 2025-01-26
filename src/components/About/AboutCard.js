@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sankalp Sharma </span>
             from <span className="purple"> Lucknow, India.</span>
             <br />
-            I am currently serving as the Executive General Secretary at IET-VIT.
+            I am currently interning with HealthSutra as a Full Stack Developer also managing the DevOps.
             <br />
           I am currently pursuing my bachelors in Computer Science and Engineering from VIT Vellore.
             <br />

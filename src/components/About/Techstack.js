@@ -9,9 +9,13 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiMysql,
   
 } from "react-icons/di";
 import {
+  SiAmazonaws,
+  SiDocker,
+  SiFastapi,
   SiNextdotjs,
   SiTailwindcss
 } from "react-icons/si";
@@ -49,6 +53,21 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFastapi/>
+      </Col>
+      
+      
+      
     </Row>
   );
 }

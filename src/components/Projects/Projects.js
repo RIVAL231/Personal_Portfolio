@@ -7,6 +7,7 @@ import project2 from "../../Assets/Projects/project2.png";
 import project3 from "../../Assets/Projects/project3.png";
 import project4 from "../../Assets/Projects/project4.png";
 import project5 from "../../Assets/Projects/project5.png";
+import project6 from "../../Assets/Projects/project6.png";
 
 function Projects() {
   return (
@@ -20,7 +21,29 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-         
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={project6}
+              isBlog={false}
+              title="FasalFix"
+              description="A plant disease classification system using Convolutional Neural Networks (CNN) that was shortlisted for national screening in Smart India Hackathon. The system analyzes images of plant leaves to detect various diseases, helping farmers identify crop issues early. Built with TensorFlow and deployed as a web application, it achieves high accuracy in classifying multiple plant diseases across different crop species."
+              // ghLink="https://github.com/RIVAL231/hackbattle_healthfix"
+              demoLink="https://sih-plant-disease.vercel.app/"
+              loading="lazy"
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={project2}
+              isBlog={false}
+              title="Audio Forensics"
+              description="An audio forensics web application leveraging deep learning models to detect manipulated or forged audio content. Built with Python and FastAPI, containerized with Docker, and deployed on AWS EC2. The system analyzes audio files for signs of tampering, splicing, or synthetic generation, providing detailed authenticity reports. Features include real-time analysis, visualization of audio waveforms, and confidence scores for forgery detection."
+              demoLink="https://analyse.audioforensics.tech"
+              loading="lazy"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={project5}
@@ -32,30 +55,21 @@ function Projects() {
               loading="lazy"
             />
           </Col>
-
           
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={project4}
               isBlog={false}
               title="DigiSwasth"
-              description="**DigiSwasth** is a web platform designed to enhance healthcare accessibility and efficiency. Built using Next.js and deployed on Vercel, it integrates modern web technologies to offer seamless user interactions. The platform may focus on providing digital health solutions, improving patient management, or offering healthcare services online."
+              description="DigiSwasth is a web platform designed to enhance healthcare accessibility and efficiency. Built using Next.js and deployed on Vercel, it integrates modern web technologies to offer seamless user interactions. The platform may focus on providing digital health solutions, improving patient management, or offering healthcare services online."
               ghLink="https://github.com/RIVAL231/hackbattle_healthfix"
               demoLink="https://digiswasth-xi.vercel.app/"
               loading="lazy"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={project2}
-              isBlog={false}
-              title="Personal Portfolio"
-              description="A personal portfolio website built with ReactJS. The website showcases my skills, projects, and blogs. It also provides a brief introduction about me and my journey as a developer. The website is designed to be responsive and user-friendly, ensuring a seamless experience for visitors. It is a reflection of my work and passion for web development."
-              ghLink="https://github.com/RIVAL231/Personal_Portfolio"
-              demoLink="https://personal-portfolio-sankalp-sharmas-projects.vercel.app/"
-              loading="lazy"
-            />
-          </Col>
+         
+         
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={project3}
